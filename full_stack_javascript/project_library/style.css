@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#formContainer{
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+#formContainer > #bookForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85%;
+    height: 85%;
+    margin: 0 auto;
+}
+
+#formContainer > #bookForm > label{
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+#formContainer > #bookForm > label > span{
+    padding-right: 30px;
+}
+
+#formContainer > #bookForm > label > input{
+    justify-content: flex-end;
+    border: none;
+    border-bottom: solid 2px #888888;
+}
+
+#bookReadCheck{
+    height: 20px;
+    width: 20px;
+}
+
+#formButton{
+    width: 70%;
+    height: 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #0075ff;
+    color: #FFFFFF;
+    transition: 0.5s linear;
+}
+
+#formButton:active{
+    background-color: #FFFFFF;
+}
+
+
+
+

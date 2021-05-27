@@ -1,3 +1,5 @@
+//let myLibrary = []
+
 function Book(title, author, numOfPages, read){
     this.title = title
     this.author = author
@@ -8,5 +10,9 @@ function Book(title, author, numOfPages, read){
     }
 }
 
-const testBook = new Book('testTitle', 'testAuthor', '300', 'not read yet')
-console.log(testBook.info())
+function addBookToLibrary(){
+
+
+
+}
+

@@ -2,12 +2,44 @@
 <html>
 <head>
 <title></title>
-<link href="" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 <!-- <script src="script.js"></script> -->
 </head>
 
 <body>
 
+    <section id="mainContainer">
+        <section id="formContainer">
+            <form id="bookForm">
+
+                <label>
+                    <span>Book Title:</span>
+                    <input id="bookTitle" class="inputStyle" type="text"/>
+                </label>
+                <label>
+                    <span>Book Author:</span>
+                    <input id="bookAuthor" class="inputStyle" type="text"/>
+                </label>
+                <label>
+                    <span>Pages:</span>
+                    <input id="bookPages" class="inputStyle" type="text"/>
+                </label>
+                <label id="checkBoxLabel">
+                    <span>Have read:</span>
+                    <input type="checkbox" id="bookReadCheck" type="text"/>
+                </label>
+
+                <button id="formButton" type="button" onclick="addBookToLbirary()">Add Book</button>
+
+            </form>
+        </section>
+
+        <section id="libraryContainer">
+
+        </section>
+        
+    </section> 
+    
 </body>
 
 <script src="script.js"></script>
